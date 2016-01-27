@@ -6,7 +6,7 @@ import getopt
 import subprocess
 import time
 
-ControlPREFIX = "/usr/local/TldSpider"
+ControlPREFIX = "/opt/TldSpider"
 
 def startService(ControlPREFIX):
 	cmd = 'ps -ef | grep "DNS-Spider"'
@@ -80,6 +80,7 @@ def runServiceOnce(ControlPREFIX):
 #	print ("bbb")
 #	print (sub.stdout.read())
 	sub.wait()
+	print ("running...")
 #	time.sleep(20)
 #	print ("aaa")
 #	print (sub.stdout.read())

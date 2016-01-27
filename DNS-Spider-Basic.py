@@ -5,7 +5,7 @@ import time
 import sched
 import os
 
-PREFIX = "/usr/local/TldSpider"
+PREFIX = "/opt/TldSpider"
 
 
 def spider():
